@@ -2,12 +2,8 @@
   "name": "vless-reverse-proxy",
   "version": "1.0.0",
   "description": "A VLESS reverse proxy server written in JavaScript with TLS support and subscription generation",
-  "main": "src/server.js",
-  "scripts": {
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js",
-    "gen-cert": "node scripts/gen-cert.js"
-  },
+  "main": "_worker.js",
+  "scripts": {},
   "keywords": [
     "vless",
     "proxy",
@@ -17,8 +13,5 @@
     "subscription"
   ],
   "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "ws": "^8.18.0"
-  }
+  "license": "MIT"
 }
