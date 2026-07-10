@@ -1,0 +1,23 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 443,
+    "tls": {
+      "enabled": true,
+      "certPath": "./certs/server.crt",
+      "keyPath": "./certs/server.key"
+    }
+  },
+  "vless": {
+    "uuid": "550e8400-e29b-41d4-a716-446655440000",
+    "path": "/?ed=2560",
+    "proxyIPs": [
+      "proxy.xxxxxxxx.tk"
+    ]
+  },
+  "fallback": {
+    "enabled": true,
+    "host": "www.example.com",
+    "port": 80
+  }
+}
