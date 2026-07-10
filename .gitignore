@@ -9,3 +9,6 @@ certs/
 *.crt
 *.key
 *.pem
+src/
+scripts/
+config.json
